@@ -25,10 +25,10 @@
         <div class="bg-[url(https://www.materna.com/SharedDocs/Bilder/DE/buehne_startseite.svg?__blob=panorama&v=1)] h-screen bg-coverbg-center ">
             <div class="flex justify-start items-center gap-10 mr-20  ml-80 text-sm bg-red-700 p-5 ">
                 
-                    <a href="#"  class=" text-white">Portifolio</a>
-                    <a href="#" class=" text-white">Industries</a>
-                    <a href="#" class=" text-white">Customers</a>
-                    <a href="#" class=" text-white">About Us</a>
+                    <div><a href="#"  class=" text-white">Portifolio</a></div>
+                    <a href="#" class=" text-white hover:bg-slate-600">Industries</a>
+                    <a href="#" class=" text-white hover:bg-slate-600">Customers</a>
+                    <a href="#" class=" text-white hover:bg-slate-600">About Us</a>
                     <i class="fa-solid fa-search  text-white ml-auto"></i>
                 </div>
                 <img src="https://www.materna.com/SiteGlobals/Frontend/Images/logo-small.svg?__blob=normal&v=1" alt="" class="h-[200px] w[200px] absolute top-0 left-20">
@@ -58,29 +58,29 @@
                 <div class="bg-white">
                     <h1 class="text-2xl text-gray-500 text-center">Learn more about us</h1>
                     <div class="grid grid-cols-4 justify-between mt-10 gap-5 mx-20">
-                        <div class="bg-gray-200">
+                        <div class="bg-gray-200 relative">
                             <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-388785133-Home-Portfolio-Cloud.png?__blob=normal&v=1" alt="">
                             <h1 class="text-red-400 text-lg p-2 ">We accompany your Journey2Cloud</h1>
                             <p class="text-black p-2 ">We analyze your application landscapes and transfer them step by step into a sustainable model.</p>
-                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 mt-10 mb-4 ml-28">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
+                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 absolute bottom-5 right-5 hover:bg-red-800">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
                         </div>
-                        <div class="bg-gray-200">
+                        <div class="bg-gray-200 relative">
                             <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-162962912-Cyber-Security.png?__blob=normal&v=1" alt="">
                             <h1 class="p-3 text-red-400 text-lg">Cyber Security</h1>
                             <p class="text-black  p-3 ">Our cyber services help you before, during and after any damage might occur by providing secure applications development, protection for your IT and information security.</p>
-                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 mt-10 mb-4 ml-28">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
+                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 absolute bottom-5 right-5 hover:bg-red-800">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
                         </div>
-                        <div class="bg-gray-200">
+                        <div class="bg-gray-200 relative">
                             <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-279424236-Home-Portfolio-ESM.png?__blob=normal&v=1" alt="">
                             <h1 class="p-3 text-red-400 text-lg">Enterprise Service Management</h1>
                             <p class="text-black  p-3 ">Benefit from the market leader for service management. More than 1,000 customers across all sectors.</p>
-                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 mt-10 mb-4 ml-28">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
+                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 absolute bottom-5 right-5 hover:bg-red-800">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
                         </div>
-                        <div class="bg-gray-200">
+                        <div class="bg-gray-200 relative">
                             <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-404775145-Home-Portfolio-Manufacturing.png?__blob=normal&v=1" alt="">
                             <h1 class="p-3 text-red-400  text-lg">IoT-based services for manufacturing</h1>
                             <p class="text-black  p-3 ">Materna’s technology expertise helps companies to develop their business processes further enabling them to enter new markets.</p>
-                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 mt-10 mb-4 ml-28">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
+                            <button class="text-white bg-red-700  text-center  cursor-pointer hover:underline p-3 absolute bottom-5 right-5 hover:bg-red-800">See More <span><i class="fa-solid fa-chevron-right px-2 text-white "></i></span></button>
                         </div>
 
                     </div>
@@ -101,41 +101,125 @@
 
                     <div class="">
                         <h1 class="text-3xl text-gray-500 text-center">Materna is behind it</h1>
-                        <div class="flex mt-10 gap-5">
+                        <div class="flex mt-10 gap-10">
                             <img src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png?__blob=normal&v=1" alt="">
-                            <div class="items-center">
-                                <h1 class="text-red-500 text-xl mt-0 mb-10">Denvel International Airport with automated <br>
+                            <div class="items-center relative">
+                                <h1 class="text-red-500 text-xl mt-0 mb-10 px-10">Denvel International Airport with automated <br>
                                     baggage check-in</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, porro quasi mollitia magni error fugit dolorum deleniti voluptas ullam quidem? Aliquam quod voluptas dolorem. Nihil fugit totam ad nisi rem!</p>
+                                <p class="px-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, porro quasi mollitia magni error fugit dolorum deleniti voluptas ullam quidem? Aliquam quod voluptas dolorem. Nihil fugit totam ad nisi rem!</p>
                                 <div class="">
-                                    <button class="text-red bg-red-700 text-center  cursor-pointer hover:bg-red-200   p-3 mt-10 mb-0 mx-10 ">More about the self bag  Drop thne project<span><i class="fa-solid fa-chevron-right px-2 text-red "></i></span></button>
+                                    <button class="text-red bg-red-700 text-center text-white hover:underline cursor-pointer hover:bg-red-800   p-3 absolute bottom-5 right-5 ">More about the self bag  Drop thne project<span><i class="fa-solid fa-chevron-right px-2 text-red "></i></span></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-cols-4 gap-10">
+                        <div class="grid grid-cols-4 gap-10 mt-5">
                             <div class="hover:bg-neutral-500 relative">
                                 <img src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png?__blob=normal&v=1" alt="">
-                                <i class="fa-solid fa-chevron-right px-2 text-red absolute top-4 left-7 rotate-90 bg-gray-700 p-2"></i>
+                                <i class="fa-solid fa-chevron-up px-2 text-red absolute top-4 left-7  bg-gray-700 p-2 text-white"></i>
                             </div>
-                            <div class="hover:bg-neutral-500 relative">
+                            <div class="hover:bg-red-500 relative">
                                 <img src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png?__blob=normal&v=1" alt="">
-                                <i class="fa-solid fa-chevron-right px-2 text-red absolute top-4 left-7 rotate-90 bg-gray-700 p-2"></i>
+                                <i class="fa-solid fa-chevron-up px-2 text-red absolute top-4 left-7  bg-red-700 text-white p-2"></i>
                             </div>
-                            <div class="hover:bg-neutral-500 relative">
+                            <div class="hover:bg-red-500 relative">
                                 <img src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png?__blob=normal&v=1" alt="">
-                                <i class="fa-solid fa-chevron-right px-2 text-red absolute top-4 left-7 rotate-90 bg-gray-700 p-2"></i>
+                                <i class="fa-solid fa-chevron-up px-2 text-red absolute top-4 left-7  bg-red-700 p-2 text-white"></i>
                             </div>
-                            <div class="hover:bg-neutral-500 relative">
+                            <div class="hover:bg-red-500 relative">
                                 <img src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png?__blob=normal&v=1" alt="">
-                                <i class="fa-solid fa-chevron-right px-2 text-red absolute top-4 left-7 rotate-90 bg-gray-700 p-2"></i>
+                                <i class="fa-solid fa-chevron-up px-2 text-red absolute top-4 left-7  bg-red-700 p-2 text-white"></i>
                             </div>
                         </div>
                     </div>
                     
                 </div>
-        </div>
 
+                <div class="bg-white  ">
+                    <div class="p-5 text-red-700 text-sm flex justify-start gap-4 mt-9 mx-20">
+                        <div class="flex gap-4  items-center">
+                            <p>print</p>
+                            <i class="fa fa-print"></i>
+                        </div>
+                        <div class="flex gap-4  items-center ">
+                            <p>Recommend</p>
+                            <i class="fa fa-share"></i>
+                        </div>
+                    </div>
+                    
+                </div>
         
+
+        <div class="bg-gray-700 ">
+            <div class="grid grid-cols-6 mx-20 ">
+                <div class="items-center text-white mt-7">
+                    <h1 class="text-xl">Portfolio</h1>
+                    <div class="flex flex-col pb-10 mt-10 space-y-2 text-md font-normal">
+                        <a href="#"  class=" text-white">Portifolio</a>
+                        <a href="#" class=" text-white">Industries</a>
+                        <a href="#" class=" text-white">Customers</a>
+                        <a href="#" class=" text-white">About Us</a>
+                    </div>
+                </div>
+                <div class="items-center text-white mt-7">
+                    <h1 class="text-xl">About us</h1>
+                    <div class="flex flex-col pb-10 mt-10 space-y-2 text-md font-normal">
+                        <a href="#"  class=" text-white">Portifolio</a>
+                        <a href="#" class=" text-white">Industries</a>
+                        <a href="#" class=" text-white">Customers</a>
+                        <a href="#" class=" text-white">About Us</a>
+                    </div>
+                </div>
+                <div class="items-center text-white mt-7">
+                    <h1 class="text-xl">Customers</h1>
+                    <div class="flex flex-col pb-10 mt-10 space-y-2 text-md font-normal">
+                        <a href="#"  class=" text-white">Portifolio</a>
+                        <a href="#" class=" text-white">Industries</a>
+                        <a href="#" class=" text-white">Customers</a>
+                        <a href="#" class=" text-white">About Us</a>
+                    </div>
+                </div>
+                <div class="items-center text-white mt-7">
+                    <h1 class="text-xl">Careers</h1>
+                    <div class="flex flex-col pb-10 mt-10 space-y-2 text-md font-normal">
+                        <a href="#"  class=" text-white">Portifolio</a>
+                        <a href="#" class=" text-white">Industries</a>
+                        <a href="#" class=" text-white">Customers</a>
+                        <a href="#" class=" text-white">About Us</a>
+                    </div>
+                </div>
+                <div class="items-center text-white mt-7">
+                    
+                </div>
+                <div class="items-center text-white mt-7">
+                    <h1 class="text-xl">Service</h1>
+                    <div class="flex flex-col pb-10 mt-10 space-y-2 text-md font-normal">
+                        <a href="#"  class=" text-white hover:underline">Ma­ter­na Sup­port</a>
+                        <a href="#" class=" text-white hover:underline">Im­print & Copy­right</a>
+                        <a href="#" class=" text-white hover:underline">Com­pli­ance at Ma­ter­na</a>
+                        <a href="#" class=" text-white hover:underline">Da­ta pri­va­cy state­ment</a>
+                        <a href="#" class=" text-white hover:underline">Da­ta pri­va­cy in­for­ma­tion for cus­tomers</a>
+                        <a href="#" class=" text-white hover:underline">Da­ta pri­va­cy in­for­ma­tion for sup­pli­ers</a>
+                        <a href="#" class=" text-white hover:underline">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <img src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/navToTop.svg?__blob=normal&v=1" alt="" class="fixed bottom-12 right-20 hover:bg-red-800">
+            </div>
+
+            
+
+             
+        </div>
+        
+
+        <div class="bg-gray-800">
+            <div class="text-md px-20 py-6 text-white  ">
+                © Materna 2023
+            </div>
+           
+        </div>
+       
            
         
     </div>
